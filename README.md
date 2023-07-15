@@ -31,20 +31,20 @@ activate resume_analysis
 ```shell
 pip install -r requirements.txt
 ```
-4.下载模型参数：
-从百度网盘上分别下载参数链接: 
-1）Chatglm-6B参数：
+4.下载模型参数：  
+从百度网盘上分别下载参数链接:       
+1）Chatglm-6B参数：  
 https://pan.baidu.com/s/1pE6UYbYjpi_nWKZ1blaJ4w 提取码: 1037
-下载后存入Linger/parse/net/chatglm/路径下
-2）PJFCANN模型参数及数据:
-https://pan.baidu.com/s/1Yuore_Dkk4B2Gjnc_bAj1w?pwd=cb9f 提取码：cb9f
-解压后checkpoint文件夹和Recruitment_round1_train_20190716文件夹放在	PJFCANN/,  step1_data文件夹和train-test_data文件夹放在PJFCANN/data/路	径下
-3）PJFCANN模型词嵌入:
-https://ai.tencent.com/ailab/nlp/en/data/tencent-ailab-embedding-zh-d200-v0.	2.0-s.tar.gz下载压缩包后，解压放在PJFCANN/路径下
+下载后存入Linger/parse/net/chatglm/路径下    
+2）PJFCANN模型参数及数据:    
+https://pan.baidu.com/s/1Yuore_Dkk4B2Gjnc_bAj1w?pwd=cb9f 提取码：cb9f  
+解压后checkpoint文件夹和Recruitment_round1_train_20190716文件夹放在	PJFCANN/,  step1_data文件夹和train-test_data文件夹放在PJFCANN/data/路径下    
+3）PJFCANN模型词嵌入:    
+https://ai.tencent.com/ailab/nlp/en/data/tencent-ailab-embedding-zh-d200-v0.	2.0-s.tar.gz下载压缩包后，解压放在PJFCANN/路径下    
 
-5.初始化数据库：
+5.初始化数据库：  
 首先根据本地数据库信息更改主文件目录下config.py中的数据库配置信息，在终端或命令行界面中，进入麟阁人才简历分析系统的安装目录。
-运行以下命令初始化数据库：
+运行以下命令初始化数据库： 
 ```shell
 flask initdb --drop
 ```
@@ -61,10 +61,10 @@ flask run {-p 端口号}
 
 ## 参考文献及开源模型
 
-https://arxiv.org/abs/2203.12277
-https://arxiv.org/abs/2210.06155
-http://arxiv.org/abs/2206.09116
-https://github.com/THUDM/ChatGLM-6B
-https://github.com/RUCAIBox/RecBole/issues/952
-https://www.zhaopin.com
-https://tianchi.aliyun.com/competition/entrance/231728/introduction
+https://arxiv.org/abs/2203.12277  
+https://arxiv.org/abs/2210.06155  
+http://arxiv.org/abs/2206.09116  
+https://github.com/THUDM/ChatGLM-6B  
+https://github.com/RUCAIBox/RecBole/issues/952  
+https://www.zhaopin.com  
+https://tianchi.aliyun.com/competition/entrance/231728/introduction  
